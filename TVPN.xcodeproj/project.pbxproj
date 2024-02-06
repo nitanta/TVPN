@@ -11,6 +11,8 @@
 		50B45C5B29AB7C64006C6C21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B45C5A29AB7C64006C6C21 /* ContentView.swift */; };
 		50B45C5D29AB7C67006C6C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B45C5C29AB7C67006C6C21 /* Assets.xcassets */; };
 		50B45C6029AB7C67006C6C21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B45C5F29AB7C67006C6C21 /* Preview Assets.xcassets */; };
+		50B45C6729AB7C7C006C6C21 /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B45C6629AB7C7C006C6C21 /* VPNManager.swift */; };
+		50B45C6929AB7CA5006C6C21 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B45C6829AB7CA5006C6C21 /* PacketTunnelProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		50B45C5A29AB7C64006C6C21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50B45C5C29AB7C67006C6C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B45C5F29AB7C67006C6C21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50B45C6629AB7C7C006C6C21 /* VPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
+		50B45C6829AB7CA5006C6C21 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				50B45C5A29AB7C64006C6C21 /* ContentView.swift */,
 				50B45C5C29AB7C67006C6C21 /* Assets.xcassets */,
 				50B45C5E29AB7C67006C6C21 /* Preview Content */,
+				50B45C6629AB7C7C006C6C21 /* VPNManager.swift */,
+				50B45C6829AB7CA5006C6C21 /* PacketTunnelProvider.swift */,
 			);
 			path = TVPN;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B45C5B29AB7C64006C6C21 /* ContentView.swift in Sources */,
+				50B45C6729AB7C7C006C6C21 /* VPNManager.swift in Sources */,
+				50B45C6929AB7CA5006C6C21 /* PacketTunnelProvider.swift in Sources */,
 				50B45C5929AB7C64006C6C21 /* TVPNApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
